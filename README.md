@@ -8,7 +8,7 @@
     </tr>
     <tr>
         <td bgcolor="#7C0A02"><img src="http://milkpaint.com/images_chart/barn.gif" width="160" height="50"></td>
-        <td bgcolor="#AC422B"><img src="http://milkpaint.com/images_chart/barn_50.gif" width="80" height="50"></td>
+        <td bgcolor="#AC422B"><img src="http://milkpaint.com/images_chart/barn_50.gif" width="180" height="50"></td>
         <td bgcolor="#C37D71"><img src="http://milkpaint.com/images_chart/barn_75.gif" width="80" height="50"></td>
         <td bgcolor="#CE948C"><img src="http://milkpaint.com/images_chart/barn_90.gif" width="80" height="50"></td>
     </tr>
