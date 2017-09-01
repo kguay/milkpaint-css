@@ -1,0 +1,188 @@
+
+$barn-red: (
+  "base":       #7C0A02,
+  "white-50":   #AC422B,
+  "white-75":   #C37D71,
+  "white-90":   #CE948C
+);
+
+$salem-red: (
+  "base":       #A31502,
+  "white-50":   #D36A4D,
+  "white-75":   #DC9584,
+  "white-90":   #E6B5A6
+);
+
+$salmon: (
+  "base":       #D59565,
+  "white-50":   #DEA573,
+  "white-75":   #E7BDA5,
+  "white-90":   #F7C6A5
+);
+
+$pumpkin: (
+  "base":       #C8760A,
+  "white-50":   #EEAA40,
+  "white-75":   #EDBA78,
+  "white-90":   #F1C996
+);
+
+$marigold: (
+  "base":       #F0B10C,
+  "white-50":   #F9D066,
+  "white-75":   #F4D081,
+  "white-90":   #FDE7AE
+);
+
+$mustard: (
+  "base":       #D1A111,
+  "white-50":   #EFC346,
+  "white-75":   #F4D081,
+  "white-90":   #F1D79A
+);
+
+$bayberry-green: (
+  "base":       #888036,
+  "white-50":   #B6AB79,
+  "white-75":   #C7BE97,
+  "white-90":   #CFCBAE
+);
+
+$tavern-green: (
+  "base":       #81965D,
+  "white-50":   #9DB28B,
+  "white-75":   #AFC2A2,
+  "white-90":   #C8D4BC
+);
+
+$lexington-green: (
+  "base":       #525C3A,
+  "white-50":   #969D8D,
+  "white-75":   #D0D2CA,
+  "white-90":   #E0E3E0
+);
+
+$sea-green: (
+  "base":       #7E8782,
+  "white-50":   #A5AEAD,
+  "white-75":   #B7BBBC,
+  "white-90":   #C6CBC7
+);
+
+$federal-blue: (
+  "base":       #6F79AE,
+  "white-50":   #829ED0,
+  "white-75":   #95ABD2,
+  "white-90":   #BECDE0
+);
+
+$soldier-blue: (
+  "base":       #5C657E,
+  "white-50":   #7B92B1,
+  "white-75":   #9AACC0,
+  "white-90":   #B7C4CC
+);
+
+$slate: (
+  "base":       #9098A3,
+  "white-50":   #CCD4DC,
+  "white-75":   #D9DFE4,
+  "white-90":   #E2E6E8
+);
+
+$pitch-black: (
+  "base":       #191011,
+  "white-50":   #4C5672,
+  "white-75":   #7D8392,
+  "white-90":   #838C9B
+);
+
+$driftwood: (
+  "base":       #574628,
+  "white-50":   #9C844A,
+  "white-75":   #AD9C73,
+  "white-90":   #D6C6AD
+);
+
+$chocolate-brown: (
+  "base":       #511700,
+  "white-50":   #B59C6B,
+  "white-75":   #DEC6AD,
+  "white-90":   #E7D6C6
+);
+
+$shades: (
+  "buttermilk":   #DFD0A9,
+  "light-cream":  #FDF3D3,
+  "oyster-white": #E8E8E6,
+  "snow-white":   #F7F7F6
+);
+
+$colors: (
+  "barn-red": $barn-red,
+  "salem-red": $salem-red,
+  "salmon": $salmon,
+  "pumpkin": $pumpkin,
+  "marigold": $marigold,
+  "mustard": $mustard,
+  "bayberry-green": $bayberry-green,
+  "tavern-green": $tavern-green,
+  "lexington-green": $lexington-green,
+  "sea-green": $sea-green,
+  "federal-blue": $federal-blue,
+  "soldier-blue": $soldier-blue,
+  "slate": $slate,
+  "pitch-black": $pitch-black,
+  "driftwood": $driftwood,
+  "chocolate-brown": $chocolate-brown,
+  "shades": $shades
+);
+
+// Color Classes
+
+@each $color_name, $color in $colors {
+  @each $color_type, $color_value in $color {
+    @if $color_type == "base" {
+      .#{$color_name} {
+        background-color: $color_value !important;
+      }
+      .#{$color_name}-text {
+        color: $color_value !important;
+      }
+    }
+    @else if $color_name != "shades" {
+      .#{$color_name}.#{$color_type} {
+        background-color: $color_value !important;
+      }
+      .#{$color_name}-text.#{$color_type} {
+        color: $color_value !important;
+      }
+    }
+  }
+}
+
+// Shade classes
+@each $color, $color_value in $shades {
+  .#{$color} {
+    background-color: $color_value !important;
+  }
+  .#{$color}-text {
+    color: $color_value !important;
+  }
+}
+
+
+// usage: color("name_of_color", "type_of_color")
+// to avoid to repeating map-get($colors, ...)
+
+@function color($color, $type) {
+  @if map-has-key($colors, $color) {
+    $curr_color: map-get($colors, $color);
+    @if map-has-key($curr_color, $type) {
+      @return map-get($curr_color, $type);
+    }
+  }
+  @warn "Unknown `#{name}` in $colors.";
+  @return null;
+}
+
