@@ -19,7 +19,7 @@
         <td>90% White</td>
     </tr>
     <tr>
-        <td bgcolor="#A31502"></td>
+        <td bgcolor="#A31502"><img src="http://milkpaint.com/images_chart/salem.gif" width="160" height="50"></td>
         <td bgcolor="#D36A4D"><img src="http://milkpaint.com/images_chart/salem_50.gif" width="80" height="50"></td>
         <td bgcolor="#DC9584"><img src="http://milkpaint.com/images_chart/salem_75.gif" width="80" height="50"></td>
         <td bgcolor="#E6B5A6"><img src="http://milkpaint.com/images_chart/salem_90.gif" width="80" height="50"></td>
