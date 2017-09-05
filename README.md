@@ -8,12 +8,12 @@ In order to use lighter shades of the base colors (e.g. Marigold Yellow mixed wi
 Example:
 ```html
 <html>
-  <head>
-	  <link rel="stylesheet" href="milkpaint-min.css">
-	</head>
-	<body class="marigold-yellow white-90">
-		<h1 class="barn-red">Milk Paint CSS</h1>
-	</body>
+<head>
+<link rel="stylesheet" href="milkpaint-min.css">
+</head>
+<body class="marigold-yellow white-90">
+<h1 class="barn-red">Milk Paint CSS</h1>
+</body>
 </html>
 ```
 
