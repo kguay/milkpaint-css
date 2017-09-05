@@ -1,5 +1,5 @@
 
-# Milkpaint CSS
+# Milk Paint CSS
 
 Colors are taken from http://www.milkpaint.com/, where Milk Paint can be purchased.
 
@@ -12,10 +12,13 @@ Example:
     <link rel="stylesheet" href="milkpaint-min.css">
   </head>
   <body class="marigold-yellow white-90">
-    <h1 class="barn-red">Milk Paint CSS</h1>
+    <h1 class="barn-red-text">Milk Paint CSS</h1>
   </body>
 </html>
 ```
+
+![Milkpaint Demo](https://github.com/kguay/milkpaint/blob/master/example.png "Milkpaint Demo")
+
 
 ## Color Palette
 ![Milkpaint Color Palette](https://github.com/kguay/milkpaint/blob/master/milkpaint.svg "Milkpaint Color Palette")
