@@ -1,4 +1,4 @@
-![Milk Paint](https://github.com/kguay/milkpaint/blob/master/images/milkpaint-logo.svg "Milk Paint")
+![Milk Paint](https://github.com/kguay/milkpaint/blob/master/images/milkpaint-logo-box.svg "Milk Paint")
 
 Colors are taken from http://www.milkpaint.com/, where Milk Paint can be purchased.
 
