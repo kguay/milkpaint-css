@@ -38,7 +38,7 @@
     <path d="M360,144 L504,144 L504,180 L360,180 L360,144 z" fill="#F4D081"/>
     <path d="M504,144 L648,144 L648,180 L504,180 L504,144 z" fill="#FDE7AE"/>
     <text transform="matrix(1, 0, 0, 1, 114, 166)">
-      <tspan x="-102" y="6" font-family="HelveticaNeue-Thin" font-size="25" fill="#323232">.marigold-yellow</tspan>
+      <tspan x="-102" y="6" font-family="HelveticaNeue-Thin" font-size="25" fill="#323232">.marigold</tspan>
     </text>
     <path d="M0,180 L216,180 L216,216 L0,216 L0,180 z" fill="#D1A113"/>
     <path d="M216,180 L360,180 L360,216 L216,216 L216,180 z" fill="#EFC346"/>
