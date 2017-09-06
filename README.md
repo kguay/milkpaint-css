@@ -1,7 +1,5 @@
 ![Milk Paint](https://github.com/kguay/milkpaint/blob/master/milkpaint-logo.svg "Milk Paint")
 
-# Milk Paint CSS
-
 Colors are taken from http://www.milkpaint.com/, where Milk Paint can be purchased.
 
 In order to use lighter shades of the base colors (e.g. Marigold mixed with 90% Snow White), use multiple classes (e.g. marigold and white-90).
