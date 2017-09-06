@@ -1,4 +1,4 @@
-![Milk Paint](https://github.com/kguay/milkpaint/blob/master/milkpaint-logo.svg "Milk Paint")
+![Milk Paint](https://github.com/kguay/milkpaint/blob/master/images/milkpaint-logo.svg "Milk Paint")
 
 Colors are taken from http://www.milkpaint.com/, where Milk Paint can be purchased.
 
@@ -16,9 +16,9 @@ Example:
 </html>
 ```
 
-![Milkpaint Demo](https://github.com/kguay/milkpaint/blob/master/example.svg "Milkpaint Demo")
+![Milkpaint Demo](https://github.com/kguay/milkpaint/blob/master/images/example.svg "Milkpaint Demo")
 
 
 ## Color Palette
-![Milkpaint Color Palette](https://github.com/kguay/milkpaint/blob/master/milkpaint.svg "Milkpaint Color Palette")
+![Milkpaint Color Palette](https://github.com/kguay/milkpaint/blob/master/images/milkpaint.svg "Milkpaint Color Palette")
 
