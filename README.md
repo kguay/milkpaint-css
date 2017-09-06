@@ -17,7 +17,7 @@ Example:
 </html>
 ```
 
-![Milkpaint Demo](https://github.com/kguay/milkpaint/blob/master/example.png "Milkpaint Demo")
+![Milkpaint Demo](https://github.com/kguay/milkpaint/blob/master/example.svg "Milkpaint Demo")
 
 
 ## Color Palette
