@@ -1,3 +1,4 @@
+![Milk Paint](https://github.com/kguay/milkpaint/blob/master/milkpaint-logo.svg "Milk Paint")
 
 # Milk Paint CSS
 
