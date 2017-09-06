@@ -1,8 +1,10 @@
 ![Milk Paint](https://github.com/kguay/milkpaint/blob/master/images/milkpaint-logo-box.svg "Milk Paint")
 
-Colors are taken from http://www.milkpaint.com/, where Milk Paint can be purchased.
+Milk paint, a milk-based paint made with natural pigments, looks great not only on furniture and shaker boxes, but also on websites. This color pallet offers numerous combinations of colors and shades.
 
-In order to use lighter shades of the base colors (e.g. Marigold mixed with 90% Snow White), use multiple classes (e.g. marigold and white-90).
+Colors are taken from <a href="http://www.milkpaint.com" target="_blank">www.milkpaint.com</a>, where Milk Paint can be purchased.
+
+The CSS is built the same way as <a href="http://materializecss.com/color.html" target="_blank">MaterializeCSS</a> (a Google Material Design style). In order to use lighter shades of the base colors (e.g. Marigold mixed with 90% Snow White), use multiple classes (e.g. marigold and white-90).
 
 Example:
 ```html
